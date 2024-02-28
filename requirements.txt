@@ -4,6 +4,6 @@ itsdangerous==2.0.1
 Jinja2==3.0.3
 MarkupSafe==2.0.1
 typing-extensions==4.1.1
-Werkzeug==2.1.1
+Werkzeug==2.0.3
 zipp==3.8.0
 Django==3.2
