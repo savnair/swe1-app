@@ -8,7 +8,7 @@ script:
 - flake8 --max-line-length=99 .
 - coverage run manage.py test
 - coverage xml
-- COVERALLS_REPO_TOKEN=U8Iq8dldiAQQsaOGKkHuVn4LQtDegXBgS coveralls
+- COVERALLS_REPO_TOKEN=$REPO_TOKEN coveralls
 
 deploy:
   provider: elasticbeanstalk
