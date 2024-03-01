@@ -15,7 +15,7 @@ deploy:
   secret_access_key: $SECRET_ACCESS_KEY
   region: "us-west-2"
   app: "swe1-app"
-  env: "swe1-app2-dev"
+  env: "swe1-app2"
   bucket_name: "elasticbeanstalk-us-west-2-891377382249"
   on:
     repo: savnair/swe1-app
